@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<p>
+<a href="https://iormares.github.io/portfolio/pattern.html/index.html">
+<img src="http://www.mynaturalsistas.com/wp-content/uploads/2015/10/umav.png" alt="HTML5 Icon" style="width:128px;height:128px;">
+</a>
+</p>
+ 
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+<head>
+
+</head>
+<style>
+ h1 {
+  font-size: 600%;
+  font-weight:bolder;
+  top: -10px;
+  right: 700px;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+ h2 {
+  font-size: 300%;
+  font-weight:bolder;
+  color: black;
+  margin-bottom: 20px;
+  font: Century;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font: 14px/1 'Open Sans', Century;
+  color: #555;
+  background: #FFB1A3;
+}
+.gallery {
+  width: 1070px;
+  margin: 0 auto;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+.gallery > div > img {
+  display: block;
+  width: 200px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+.gallery > div:hover {
+  z-index: 1;
+}
+.gallery > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.cf:after {
+  clear: both;
+}
+.product-discription{
+font-size: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+.row > .column {
+  padding: 0 8px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cursor {
+  cursor: pointer
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #FCA87D;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+img.hover-shadow {
+  transition: 0.3s
+}
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+</style>
+
+<body bgcolor="#FCA071">
+
+<h1 class="thick"> About me </h1>
+<div class="gallery cf">
+<div>
+    <img src="https://i.pinimg.com/736x/30/17/39/301739707276ed89125a35158ef0dbd1--beautiful-black-hair-c-hair.jpg" />
+  </div>
+  
+  <div>
+    <img src="https://s-media-cache-ak0.pinimg.com/736x/a3/60/14/a36014e4c9d326373f9e634a4a08b5b2--hair-buns-braid-hair.jpg" />
+  </div>
+  
+  <div>
+    <img src="http://i.imgur.com/KtFaB76l.png" />
+  </div>
+  
+  <div>
+    <img src="https://ae01.alicdn.com/kf/HTB1BvtnLFXXXXbpXXXXq6xXFXXX9/remy-ponytail-wrap-arounds-human-hair-ponytail-kinky-pony-tail-ponytail-extensions-drawstring-free-shipping100or120or140g.jpg" />
+  </div>
+  
+  <div>
+    <img src="http://i.imgur.com/KtFaB76l.png" />
+  </div>
+ 
+</div>
+
+<br>
+<div style="background-color:white;color:black;padding:80px;">
+  <h2 style="text-align:center"> Iomares Rodas </h2>
+  <p class="product-discription">
+  Coily .</p>
+ <br>
+ <h2 style="text-align:center"> Elice Miranda </h2>
+  <p class="product-discription">
+  Coily .</p>
+ <br>
+ <h2 style="text-align:center"> Tyler Washington </h2>
+ 
+  <p class="product-discription">
+  Coily .</p>
+ <br>
+ <h2 style="text-align:center"> Emily Moncerrate </h2>
+  <p class="product-discription">
+  Coily .</p>
+ <br>
+ <h2 style="text-align:center"> Grace Haile </h2>
+  <p class="product-discription">
+  Coily .</p>
+ <br>
+ 
+  
+</div>
+    
+</body>
+</html>
+  
