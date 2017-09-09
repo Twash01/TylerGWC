@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+<p>
+   <a href="https://iormares.github.io/portfolio/pattern.html/index.html">
+       <img src="http://www.mynaturalsistas.com/wp-content/uploads/2015/10/umav.png" alt="HTML5 Icon" style="width:128px;height:128px;">
+   </a>
+</p>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+</head>
+<style>
+   h1 {
+       font-size: 600%;
+       font-weight: bolder;
+       top: -10px;
+       right: 700px;
+       color: black;
+       text-align: center;
+       margin-bottom: 20px;
+   }
+   
+   h2 {
+       font-size: 600%;
+       font-weight: bolder;
+       color: black;
+       margin-bottom: 20px;
+   }
+   
+   * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   
+   body {
+       font: 14px/1 'Open Sans', Century;
+       color: #555;
+       background: #FAF97E;
+   }
+   
+   .gallery {
+       width: 850px;
+       margin: 0 auto;
+       padding: 5px;
+       background: #fff;
+       box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+   }
+   
+   .gallery > div {
+       position: relative;
+       float: left;
+       padding: 5px;
+   }
+   
+   .gallery > div > img {
+       display: block;
+       width: 200px;
+       transition: .1s transform;
+       transform: translateZ(0);
+       /* hack */
+   }
+   
+   .gallery > div:hover {
+       z-index: 1;
+   }
+   
+   .gallery > div:hover > img {
+       transform: scale(1.7, 1.7);
+       transition: .3s transform;
+   }
+   
+   .cf:before,
+   .cf:after {
+       display: table;
+       content: "";
+       line-height: 0;
+   }
+   
+   .cf:after {
+       clear: both;
+   }
+   
+   h1 {
+       margin: 40px 0;
+       font-weight: 300;
+       text-align: center;
+   }
+   
+   .product-discription {
+       font-size: 20px;
+   }
+   
+   * {
+       box-sizing: border-box;
+   }
+   
+   .row > .column {
+       padding: 0 8px;
+   }
+   
+   .row:after {
+       content: "";
+       display: table;
+       clear: both;
+   }
+   
+   .column {
+       float: left;
+       width: 25%;
+   }
+   /* The Modal (background) */
+   
+   .modal {
+       display: none;
+       position: fixed;
+       z-index: 1;
+       padding-top: 100px;
+       left: 0;
+       top: 0;
+       width: 100%;
+       height: 100%;
+       overflow: auto;
+       background-color: black;
+   }
+   /* Modal Content */
+   
+   .modal-content {
+       position: relative;
+       background-color: #fefefe;
+       margin: auto;
+       padding: 0;
+       width: 90%;
+       max-width: 1200px;
+   }
+   /* The Close Button */
+   
+   .close {
+       color: white;
+       position: absolute;
+       top: 10px;
+       right: 25px;
+       font-size: 35px;
+       font-weight: bold;
+   }
+   
+   .close:hover,
+   .close:focus {
+       color: #999;
+       text-decoration: none;
+       cursor: pointer;
+   }
+   
+   .cursor {
+       cursor: pointer
+   }
+   /* Next & previous buttons */
+   
+   .prev,
+   .next {
+       cursor: pointer;
+       position: absolute;
+       top: 50%;
+       width: auto;
+       padding: 16px;
+       margin-top: -50px;
+       color: #FCA87D;
+       font-weight: bold;
+       font-size: 20px;
+       transition: 0.6s ease;
+       border-radius: 0 3px 3px 0;
+       user-select: none;
+       -webkit-user-select: none;
+   }
+   /* Position the "next button" to the right */
+   
+   .next {
+       right: 0;
+       border-radius: 3px 0 0 3px;
+   }
+   /* On hover, add a black background color with a little bit see-through */
+   
+   .prev:hover,
+   .next:hover {
+       background-color: rgba(0, 0, 0, 0.8);
+   }
+   /* Number text (1/3 etc) */
+   
+   .numbertext {
+       color: #f2f2f2;
+       font-size: 12px;
+       padding: 8px 12px;
+       position: absolute;
+       top: 0;
+   }
+   
+   .active,
+   .demo:hover {
+       opacity: 1;
+   }
+   
+   img.hover-shadow {
+       transition: 0.3s
+   }
+   
+   .hover-shadow:hover {
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+   }
+</style>
+ 
+<h1 class="thick"> Wavy </h1>
+
+<body bgcolor="Yellow">
+
+   <div class="gallery cf">
+       <div>
+           <img src="https://s-media-cache-ak0.pinimg.com/736x/65/2a/4b/652a4bbd56c9d85ea70cfa90d1d7b368--matte-lipstick-nude-makeup-nude-lips.jpg" />
+       </div>
+       <div>
+           <img src="https://i.pinimg.com/736x/1f/2c/c8/1f2cc8be558e2a994471fb032b1cb459--big-hair-wavy-hair.jpg" />
+       </div>
+       <div>
+           <img src="https://s-media-cache-ak0.pinimg.com/736x/2c/ee/7e/2cee7ea781fa7894f3796cbbc6eee8a0--beautiful-hairstyles-black-hairstyles.jpg" />
+       </div>
+       <div>
+           <img src="https://i.pinimg.com/736x/55/83/1a/55831a561e5ef83a0f1d000f5f3e4e74--short-hairstyles-for-women-hairstyle-for-women.jpg" />
+       </div>
+       <div>
+           <img src="https://s-media-cache-ak0.pinimg.com/736x/2a/79/35/2a7935ec49ed240b4cfbf3b37014cdda--blonde-brunette-brown-blonde.jpg" />
+       </div>
+       <div>
+           <img src="https://s-media-cache-ak0.pinimg.com/736x/1c/c6/2a/1cc62a149bed341fc33aec9c24ea8bbd--pretty-hairstyles-braided-hairstyles.jpg" />
+       </div>
+       <div>
+           <img src="https://s-media-cache-ak0.pinimg.com/736x/bf/2a/44/bf2a447f74c509a13585401fd721deab--simple-hairstyles-ponytail-hairstyles.jpg" />
+       </div>
+       <div>
+           <img src="https://s-media-cache-ak0.pinimg.com/736x/89/2c/bb/892cbb2531f21e199d02b19dddb0ab14--beautiful-black-women-youre-beautiful.jpg" />
+       </div>
+       <div>
+           <img src="https://s-media-cache-ak0.pinimg.com/736x/e4/2b/15/e42b1546bfee9d191825490223c4cce2--hair-inspo-hair-inspiration.jpg" />
+       </div>
+       <div>
+           <img src="https://3.bp.blogspot.com/-00tQgMhRebs/WKmAMqxJovI/AAAAAAAADPg/n19V0fLmHHkT3ctIuZfb3_cYTT5PXukIgCLcB/s600/Men-curly-hairstyles%2B%25282%2529.jpg" />
+       </div>
+       <div>
+           <img src="http://machohairstyles.com/wp-content/uploads/2015/12/braids_for_long_hair_28.jpg" />
+       </div>
+       <div>
+           <img src="http://www.menshairstyletrends.com/wp-content/uploads/2016/03/modutch85_and-mokumbarbers-long-curly-fringe-undercut-hairstyle-for-men.jpg" />
+       </div>
+   </div>
+
+   <br>
+   <div class="gallery cf">
+       <div>
+           <img src="https://content.naturallycurly.com/wp-content/uploads/2016/01/Kid-650.png" />
+       </div>
+
+       <div>
+           <img src="https://s-media-cache-ak0.pinimg.com/originals/2c/00/4e/2c004ef9755bd7ece625f15b0f967942.jpg" />
+       </div>
+
+       <div>
+           <img src="https://i.pinimg.com/736x/3c/28/13/3c2813aa85f5a1375c6a797d27be1879--toddler-curly-hairstyles-curly-hair-toddler-girl.jpg" />
+       </div>
+
+       <div>
+           <img src="https://i.pinimg.com/736x/c2/a9/2c/c2a92c2b95ffc501e275d28311599478--kid-swag-baby-swag.jpg" />
+       </div>
+
+       <div>
+           <img src="https://i.pinimg.com/736x/98/6b/84/986b847d26b53898d86adeecb08c5e5b--adorable-babies-beautiful-babies.jpg" />
+       </div>
+
+       <div>
+           <img src="https://i.pinimg.com/736x/01/62/56/016256a09bb5ce28a628f6bc849d7d5c--black-kids-hairstyles-kid-hairstyles.jpg" />
+       </div>
+
+       <div>
+           <img src="https://i.pinimg.com/originals/9e/26/de/9e26de189a192d67abd2a2a527176816.png" />
+       </div>
+
+       <div>
+           <img src="https://s-media-cache-ak0.pinimg.com/736x/f4/48/3f/f4483fda07caddb922fea9219100470c--children-hairstyles-little-girl-hairstyles.jpg" />
+       </div>
+
+       <div>
+           <img src="" />
+       </div>
+
+       <div>
+           <img src="https://i.pinimg.com/736x/9f/8b/00/9f8b0011d2b5d41e09703f2ffe7d6421--black-boy-hairstyles-kid-hairstyles.jpg" />
+       </div>
+
+       <div>
+           <img src="https://i.pinimg.com/736x/b3/da/d7/b3dad78a68931e4ecca74d861252432a--girl-style-cute-hairstyles.jpg" />
+       </div>
+       <div>
+           <img src="https://i.pinimg.com/736x/6b/96/92/6b9692a6269b31fe63719e07f999c7bc--baby-girl-hairstyles-quince-hairstyles.jpg" />
+       </div>
+
+       <div>
+           <img src="https://s-media-cache-ak0.pinimg.com/736x/fe/3e/b1/fe3eb1e62b5e9df88ff3e0e1455bc1e7--toddler-hairstyles-girl-hairstyles.jpg" />
+       </div>
+
+   </div>
+   <br>
+   <div style="background-color:white;color:black;padding:80px;">
+       <h2 style="text-align:center"> Products  </h2>
+       <p class="product-discription"> Since your hair is the lightest of curly textures its important to use light moisturizing products on your hair like the ones listed below
+           more things to keep in mind are:
+           Use sealants with lightweight tea tree or jojoba oil
+Refresh with a styling spritz that moisturizes and lessens frizz
+Use a gentle sulfate-free cleanser to get the most body for your waves
+Plop your freshly washed hair for more defintion
+
+           <p style="text-align: center"><a href="https://www.naturallycurly.com/pages/hairtypes/type2">If you want to know more click here!</a></p>
+       </p>
+
+       <h2 style="text-align:center">Moisturizer</h2>
+       <div class="row">
+           <div class="column">
+               <img src="https://i5.walmartimages.com/asr/2fcf1f34-de45-4c3b-b057-eaf8a5ddc219_1.ba866e2cd38d484ed72d0d83217c5f9f.jpeg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+           </div>
+           <div class="column">
+               <img src="https://target.scene7.com/is/image/Target/49115178?wid=520&hei=520&fmt=pjpeg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+           </div>
+           <div class="column">
+               <img src="http://images.ulta.com/is/image/Ulta/2244663" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+           </div>
+           <div class="column">
+               <img src="http://demandware.edgesuite.net/aabj_prd/on/demandware.static/-/Sites-SBS-SallyBeautySupply/default/dwc9c3595f/images/large/SBS-459080.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+           </div>
+       </div>
+
+       <div id="myModal" class="modal">
+           <span class="close cursor" onclick="closeModal()">&times;</span>
+           <div class="modal-content">
+               <div class="mySlides">
+                   <div class="numbertext">1 / 4</div>
+                   <img src="https://i5.walmartimages.com/asr/2fcf1f34-de45-4c3b-b057-eaf8a5ddc219_1.ba866e2cd38d484ed72d0d83217c5f9f.jpeg" style="width:100%">
+               </div>
+               <div class="mySlides">
+                   <div class="numbertext">2 / 4</div>
+                   <img src="https://target.scene7.com/is/image/Target/49115178?wid=520&hei=520&fmt=pjpeg">
+               </div>
+               <div class="mySlides">
+                   <div class="numbertext">3 / 4</div>
+                   <img src="http://images.ulta.com/is/image/Ulta/2244663">
+               </div>
+
+               <div class="mySlides">
+                   <div class="numbertext">4 / 4</div>
+                   <img src="https://www.images-iherb.com/l/SMT-90135-3.jpg" style="width:100%">
+               </div>
+
+               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+               <a class="next" onclick="plusSlides(1)">&#10095;</a>
+               <div class="caption-container">
+                   <p id="caption"></p>
+               </div>
+
+           </div>
+       </div>
+ 	</div>
+
+
+       <script>
+           function openModal() {
+               document.getElementById('myModal').style.display = "block";
+           }
+
+           function closeModal() {
+               document.getElementById('myModal').style.display = "none";
+           }
+           var slideIndex = 1;
+           showSlides(slideIndex);
+
+           function plusSlides(n) {
+               showSlides(slideIndex += n);
+           }
+
+           function currentSlide(n) {
+               showSlides(slideIndex = n);
+           }
+
+           function showSlides(n) {
+               var i;
+               var slides = document.getElementsByClassName("mySlides");
+               var dots = document.getElementsByClassName("demo");
+               var captionText = document.getElementById("caption");
+               if (n > slides.length) {
+                   slideIndex = 1
+               }
+               if (n < 1) {
+                   slideIndex = slides.length
+               }
+               for (i = 0; i < slides.length; i++) {
+                   slides[i].style.display = "none";
+               }
+               for (i = 0; i < dots.length; i++) {
+                   dots[i].className = dots[i].className.replace(" active", "");
+               }
+               slides[slideIndex - 1].style.display = "block";
+               dots[slideIndex - 1].className += " active";
+               captionText.innerHTML = dots[slideIndex - 1].alt;
+           }
+     </script>
+
+<!--       <div id = "root_img"
+           style = "width:100%;height:100%" >
+           <div id = "id_immagine"
+             align = "center"
+             style = "width: 100%; height: 100%;">
+             </br>
+             <iframe width = "560"
+               height = "315"
+               src = "https://www.youtube.com/embed/rjwmz74Tbbk"
+               frameborder = "5"
+               allowfullscreen >
+             </iframe>
+           </div>
+     </div> -->
+
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/2pI3D01yAtg?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+</body>
+
+</html>
